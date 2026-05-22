@@ -53,4 +53,6 @@ aws-terraform/
 └── .github/
 └── workflows/
 ├── plan.yml            # Runs terraform plan on every PR
-└── apply.yml           # Runs terraform apply manually
+└── apply.yml           # Runs terraform apply manually 
+
+
