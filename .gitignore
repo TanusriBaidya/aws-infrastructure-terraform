@@ -1,0 +1,38 @@
+# Terraform state files — never commit these
+*.tfstate
+*.tfstate.*
+
+# Terraform working directory
+.terraform/
+.terraform.lock.hcl
+
+# Plan files — may contain sensitive values
+tfplan
+*.tfplan
+
+# Variable files that may contain secrets
+*.tfvars.json
+
+# Override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# CLI config
+.terraformrc
+terraform.rc
+
+# Claude Code
+.claude/
+CLAUDE.md
+HANDOFF.md
+.claudeignore
+
+# macOS
+.DS_Store
+
+# Editor
+.idea/
+.vscode/
+*.swp
